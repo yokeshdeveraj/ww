@@ -1,0 +1,59 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+#itachi
+{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(13, 14, 13);
+}
+#uchiha
+{
+    height: 80px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pic
+{
+    height: 50px;
+    width: 100%;
+    padding-top: 3px;
+}
+.pic svg
+{
+    fill:blue;
+}
+.naruto 
+{
+    height: 80px;
+    width: 192%;
+}
+.naruto ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+.naruto ul li
+{
+    color: red;
+}
+.naruto ul li a
+{
+    text-decoration: none;
+    color: red;
+    font-weight: circular,spotify-circular,Helvetica,arial,sans-serif;
+    font-size: 15px;
+}
+.naruto ul li a:hover
+{
+    color: whitesmoke;
+}
